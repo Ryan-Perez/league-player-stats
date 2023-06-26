@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import logo from './logo.svg';
 import './App.css';
+import searchForPlayer from '../../server/controllers/League'
 
 function App() {
   const [searchText, setSearchText] = useState("");
   const [playerData, setPlayerData] = useState("");
   
+  
+
 
   console.log(playerData)
   return (
